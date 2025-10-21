@@ -35,7 +35,7 @@ a[href^="http"]:not(:has(img))::after {
 
 body {
     background-color: var(--clr-background);
-    background-image: url("img/otis-redding.png");
+    background-image: url("img/paper.png");
     color: var(--clr-text);
     font-family: Atkinson Hyperlegible, ui-sans-serif, Helvetica Neue, MgOpen Moderna, Tahoma, sans-serif;
     line-height: 1.5;
