@@ -44,6 +44,22 @@ body {
     text-rendering: geometricPrecision;
 }
 
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary > h2::before {
+    content: "▸ ";
+}
+
+details[open] > summary > h2::before {
+    content: "▾ ";
+}
+
 h2 {
     font-size: 1.2em;
 }
